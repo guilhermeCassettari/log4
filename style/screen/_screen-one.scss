@@ -5,6 +5,10 @@
     }
 }
 
+.img-container {
+    pointer-events: none;
+}
+
 .box-container {
     @include animation-enter();
     overflow-y: hidden;
@@ -40,6 +44,7 @@
 }
 
 .img-phone {
+    pointer-events: none;
     margin-top: 22px;
     width: 347px;
     z-index: -50;
@@ -88,6 +93,7 @@
         }
     }
     .img-container {
+        pointer-events: none;
         @include flex-end();
         height: 100%;
         flex-grow: 1;
